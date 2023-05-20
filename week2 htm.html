@@ -1,0 +1,127 @@
+<html> 
+    <head>
+        <link rel="stylesheet" href="week2 css.css">
+    </head>
+<body>
+    <!--navigation bar's html code -->
+    <nav class="a1">
+<ul>
+<li>Library System</li>
+<li class="rht">Logout</li>
+<li class="rht">Contact us</li>
+<li class="rht"><a href="#reg" class="sub1">Register</a></li>
+<li class="rht"><a href="#book" class="sub1">Books</a></li>
+</ul>
+</nav>
+
+<!-- book's section html code -->
+    <div  id="book">
+ <h2 style="text-align: center;">BOOKS</h2>
+ <table border="">
+ <thead>
+    <tr>
+        <th>Book Id</th>
+        <th>Tiltle</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Availability</th>
+    </tr>
+ </thead>
+ <tbody>
+    <tr>
+        <td>1</td>
+        <td> 
+         <a href="">The Leader</a>
+         <div class="separate">Publication Date:2015</div>
+         <div class="separate">Page Count:250</div>
+         <div class="separate">ISBN:123-4567890123</div>
+        </td>
+        <td>Prataph Simha</td>
+        <td>Politics</td>
+        <td>Available</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td> 
+         <a href="">The Fighter</a>
+         <div class="separate">Publication Date:2022</div>
+         <div class="separate">Page Count:300</div>
+         <div class="separate">ISBN:123-4567890456</div>
+        </td>
+        <td>Nisha Negi</td>
+        <td>History</td>
+        <td>Available</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td> 
+         <a href="">The Captian Cool</a>
+         <div class="separate">Publication Date:2023</div>
+         <div class="separate">Page Count:350</div>
+         <div class="separate">ISBN:123-4567890789</div>
+        </td>
+        <td>D J Bravo</td>
+        <td>Thriller</td>
+        <td>Available</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td> 
+         <a href="">The Saviour</a>
+         <div class="separate">Publication Date:2020</div>
+         <div class="separate">Page Count:400</div>
+         <div class="separate">ISBN:123-4567890321</div>
+        </td>
+        <td>Suresh Raina</td>
+        <td>Sports</td>
+        <td>Available</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td> 
+         <a href="">The Warrior</a>
+         <div class="separate">Publication Date:2021</div>
+         <div class="separate">Page Count:250</div>
+         <div class="separate">ISBN:123-4567890789</div>
+        </td>
+        <td>Faf Dupls</td>
+        <td>Mystery</td>
+        <td>Available</td>
+    </tr>
+ </tbody>
+ </table>
+</div>
+
+<!-- register form's section html code -->
+<div id="reg">
+    <h2 style="text-align: center;">REGISTER</h2>
+<form action="post">
+    <div> 
+    <label for="First name">First Name</label>
+    <input type="text" class="extend" required id="hvr"></div>
+    <div> 
+    <label for="Last Name">Last Name</label>
+    <input type="text" class="extend" required id="hvr"></div>
+    <div> 
+    <label for="dob">Date of Birth</label>
+    <input type="date" class="extend" required id="hvr"></div>
+    <div> 
+    <label for="age">Age</label>
+    <input type="number" class="extend" min="5" max="100" required id="hvr"></div>
+    <div> 
+    <label for="email">Email</label>
+    <input type=" email" class="extend" required id="hvr"></div>
+    <div> 
+    <label for="password">Password</label>
+     <input type="password" class="extend" required id="hvr"></div>
+     <div> 
+    <label for="confirm password"> Confirm Password</label>
+    <input type="password" class="extend" required id="hvr"></div>
+    <div>
+    <button type="submit" id="btn" required>Register</button></div>
+    <div>
+    <button type="reset" id="rst" required>Reset</button></div>  
+</form>
+</div>
+</body>
+</html>
